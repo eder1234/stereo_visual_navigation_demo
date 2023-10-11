@@ -1,4 +1,11 @@
-Files related with the topological map (visual memory).
+# Topological map
+
+This folder contains the files related with the topological map (visual memory).
+
+## Overview
+Point features are extracted and matched (SuperGlue) between all the pairs of two images in a folder (2021 mobile stereo dataset).
+
+### Search path algorithms
 
 Weighted graph (`matches_matrix`) used by A*.
 
