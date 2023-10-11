@@ -13,6 +13,10 @@ Weighted graph (`matches_matrix`) used by A*.
 | **chess3**   | 4        | 0        | 0        | 0        | 165    | 206    | 0      | 0       |
 | **podium1**  | 0        | 0        | 0        | 0        | 0      | 0      | 0      | 0       |
 
+Shortest paths:
+* From "chess1" to "chess3": chess1 → artroom1 → chess3
+* From "artroom1" to "chess1": artroom1 → chess1
+
 Connectivity graph used by Dijkstra's algorithm.
 
 |              | artroom1 | artroom2 | bandsaw1 | bandsaw2 | chess1 | chess2 | chess3 | podium1 |
@@ -25,3 +29,7 @@ Connectivity graph used by Dijkstra's algorithm.
 | **chess2**   | 0        | 0        | 0        | 0        | 1      | 1      | 1      | 0       |
 | **chess3**   | 0        | 0        | 0        | 0        | 1      | 1      | 1      | 0       |
 | **podium1**  | 0        | 0        | 0        | 0        | 0      | 0      | 0      | 1       |
+
+Shortest paths:    
+* From "chess1" to "chess3": chess1 → chess3
+* From "artroom1" to "chess1": No path found.
